@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+**/node_modules/
+package-lock.json
+**/package-lock.json
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Build & Distribution outputs
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/.next/
+out/
+coverage/
+
+# IDE, Editor, & System
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Databases & local stores
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
